@@ -14,6 +14,8 @@ export default function Resume() {
                             <a href="#about" className="hover:text-blue-400">About Me</a>
                             <a href="#projects" className="hover:text-blue-400">Projects</a>
                             <a href="#experience" className="hover:text-blue-400">Professional Experience</a>
+                            <a href="#education" className="hover:text-blue-400">Education</a>
+                            <a href="#certificates" className="hover:text-blue-400">Certificates</a>
                             <a href="#contact" className="hover:text-blue-400">Contact</a>
                         </div>
                     </div>
@@ -124,11 +126,11 @@ export default function Resume() {
                                    intuitive navigation, and mobile-friendly design to make managing childcare feel effortless and transparent. 
                                 </p>
                                 <div className="mt-5">
-                                    <a href="#" target="_blank" rel="noopener noreferrer" 
+                                    <a href="https://imneil04.github.io/reactproj1/" target="_blank" rel="noopener noreferrer" 
                                         className="
                                         px-4 py-3 
                                         bg-black 
-                                        text-white rounded-lg hover:bg-emerald-500 transition-all">
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
                                     </a>
                                 </div>
@@ -146,11 +148,11 @@ export default function Resume() {
                                     the café anytime, and anywhere.  
                                 </p>
                                 <div className="mt-5">
-                                    <a href="#" target="_blank" rel="noopener noreferrer" 
+                                    <a href="https://imneil04.github.io/reactproj2/" target="_blank" rel="noopener noreferrer" 
                                         className="
                                         px-4 py-3 
                                         bg-black 
-                                        text-white rounded-lg hover:bg-emerald-500 transition-all">
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
                                     </a>
                                 </div>
@@ -167,11 +169,11 @@ export default function Resume() {
                                     With smooth animations, responsive design, and a minimalist aesthetic.
                                 </p>
                                 <div className="mt-5">
-                                    <a href="#" target="_blank" rel="noopener noreferrer" 
+                                    <a href="https://imneil04.github.io/reactproj3/" target="_blank" rel="noopener noreferrer" 
                                         className="
                                         px-4 py-3 
                                         bg-black 
-                                        text-white rounded-lg hover:bg-emerald-500 transition-all">
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
                                 </a>
                                 </div>
@@ -260,23 +262,70 @@ export default function Resume() {
                         </div>
                     </section>
 
+                    {/**EDUCATION */}
+                    <section id="education" className="max-w-5xl mx-auto px-6 py-16">
+                        <h2 className="text-2xl font-semibold mb-6">Education</h2>
+
+                        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                            <div className="flex flex-col justify-center items-center mb-4">
+                                <div>
+                                    <h3 className="font-semibold text-lg">IT Software Development</h3>
+                                    <p className="text-sm text-gray-400">Southern Alberta Institute of Technology (SAIT)</p>
+                                    <span className="text-sm text-gray-500">Sept 2021 – Oct 2022</span>
+                                </div>
+                                
+                                <div className="mt-10">
+                                    <h3 className="font-semibold text-lg">IT Computer Systems</h3>
+                                    <p className="text-sm text-gray-400">Southern Alberta Institute of Technology (SAIT)</p>
+                                    <span className="text-sm text-gray-500">Sept 2017 – Jun 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/**CERTS */}
+                    <section id="certificates" className="max-w-5xl mx-auto px-6 py-16">
+                        <h2 className="text-2xl font-semibold mb-6">Certifications</h2>
+
+                        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                            <div className="flex flex-col justify-center items-center mb-4">
+                                <div>
+                                    <h3 className="font-semibold text-lg">Front-End Development Libraries</h3>
+                                    <p className="text-sm text-gray-400">Freecodecamp</p>
+                                    <span className="text-sm text-gray-500">Mar 13, 2022</span>
+                                </div>
+                                
+                                <div className="mt-10">
+                                    <h3 className="font-semibold text-lg">Responsive Web Design</h3>
+                                    <p className="text-sm text-gray-400">Freecodecamp</p>
+                                    <span className="text-sm text-gray-500">Feb 21, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                     {/**CONTACT */}
                     <section id="contact" className="max-w-5xl mx-auto px-6 py-16 text-center">
-                        <h2 className="text-2xl font-semibold mb-6">Contact</h2>
+                        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
 
-                        <p className="text-gray-400 mb-4">
-                            Feel free to reach out for opportunities or collaborations.
-                        </p>
-                        <div className="flex justify-center items-center mb-4">
-                            <p className="text-blue-500">+1 (403)-400-7427 | neildelrosario47@gmail.com</p>
-                        </div>
-                        <div className="flex justify-center gap-6">
-                            <a href="https://github.com/imneil04" target="_blank" rel="noopener noreferrer">
-                            <i className="fa-brands fa-github text-3xl"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/mark-neil-del-rosario-0a7b7a83/?skipRedirect=true" target="_blank" rel="noopener noreferrer">
-                            <i className="fa-brands fa-linkedin text-3xl"></i>
-                            </a>
+                            <h2 className="text-2xl font-semibold mb-6">Contact</h2>
+
+                            <p className="text-gray-400 mb-4">
+                                Feel free to reach out for opportunities or collaborations.
+                            </p>
+
+                            <div className="flex justify-center items-center mb-4">
+                                <p className="text-blue-500">+1 (403)-400-7427 | neildelrosario47@gmail.com</p>
+                            </div>
+
+                            <div className="flex justify-center gap-6">
+                                <a href="https://github.com/imneil04" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-github text-3xl"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mark-neil-del-rosario-0a7b7a83/?skipRedirect=true" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-linkedin text-3xl"></i>
+                                </a>
+                            </div>
                         </div>
                     </section>
                 </section>
