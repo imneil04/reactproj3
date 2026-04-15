@@ -165,7 +165,7 @@ export default function Resume() {
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                     A modern single-page app that is designed to showcase Mark's work, skills, and experience in a simple and engaging way. 
                                     It features a sleek, intuitive layout where visitors can easily navigate through the website, view details, and learn more about the Mark. 
-                                    Key elements include a hero (name) section, about me section, project highlights, tech stack, and contact options. 
+                                    Key elements include a hero (name) section, about me section, project highlights, experience, education, tech stack, and contact options. 
                                     With smooth animations, responsive design, and a minimalist aesthetic.
                                 </p>
                                 <div className="mt-5">
