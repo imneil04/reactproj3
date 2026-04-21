@@ -87,7 +87,8 @@ export default function Resume() {
                                     "Java",
                                     "ASP.NET",
                                     ".NET Core",
-                                    "Java Servlet Pages","Apache","MVC","Azure (Formerly TFS)"].map((tech) => (
+                                    "Java Servlet Pages","Apache","MVC","Azure (Formerly TFS)",
+                                    "Firebase"].map((tech) => (
                                         <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-blue-500 transition">{tech}</span>
                                     ))}
                                 </div>
@@ -139,7 +140,7 @@ export default function Resume() {
                             {/**PROJ 2 */}
                             <motion.div whileHover={{ scale: 1.03 }}
                             className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                                <h3 className="text-xl font-semibold mb-2">Cafe bookish website app</h3>
+                                <h3 className="text-xl font-semibold mb-2">Café bookish website app</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                     A website app that offers a clean and inviting digital experience that reflects the atmosphere 
                                     of the café itself. It allows customers to browse the menu, view featured items, and place orders online
@@ -155,6 +156,12 @@ export default function Resume() {
                                         text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
                                     </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                    <p className="text-gray-300 text-sm mt-7 p-2">
+                                    <span className="text-cyan-500
+                                        font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                    As CI/CD updates are ongoing.</p>
                                 </div>
                             </motion.div>
                             
@@ -176,6 +183,13 @@ export default function Resume() {
                                         text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
                                 </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                        As CI/CD updates are ongoing.
+                                    </p>
                                 </div>
                             </motion.div>
                         </div>
