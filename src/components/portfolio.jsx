@@ -118,7 +118,7 @@ export default function Resume() {
                             {/**PROJ 1 */}
                             <motion.div whileHover={{ scale: 1.03 }}
                             className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                                <h3 className="text-xl font-semibold mb-2">Childcare website app</h3>
+                                <h3 className="text-xl font-semibold mb-2">Childcare website app (React)</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                    A project designed to create a safe, seamless, and reassuring experience for both parents and child directors. 
                                    It features a clean, user-friendly interface where parents can 
@@ -177,6 +177,34 @@ export default function Resume() {
                                 </p>
                                 <div className="mt-5">
                                     <a href="https://imneil04.github.io/reactproj3/" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                        As CI/CD updates are ongoing.
+                                    </p>
+                                </div>
+                            </motion.div>
+
+                            {/**PROJ 4 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                            className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Childcare website app (React + Vite)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                    A modern childcare web app built with React, Vite, and Bootstrap delivers a fast, clean, and highly responsive experience for both parents and administrators. 
+                                    It features a simple, intuitive interface that makes it easy to navigate through services, enroll children, and access important information. 
+                                    Designed with a mobile-first approach, the app ensures seamless usability across all devices, while Bootstrap provides consistent styling and layout. 
+                                    With its focus on user-friendly interactions, smooth performance, and organized structure, the platform makes managing childcare both efficient and stress-free.
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://imneil04.github.io/reactproj4/" target="_blank" rel="noopener noreferrer" 
                                         className="
                                         px-4 py-3 
                                         bg-black 
