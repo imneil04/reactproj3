@@ -115,31 +115,38 @@ export default function Resume() {
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
                         <h2 className="text-2xl font-semibold mb-10">Projects</h2>
                         <div className="grid md:grid-cols-2 gap-6">
-                            {/**PROJ 1 */}
+
+                            {/**PROJ 5 */}
                             <motion.div whileHover={{ scale: 1.03 }}
-                            className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                                <h3 className="text-xl font-semibold mb-2">Childcare website app (React)</h3>
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Childcare website app (Sidebar Nav)</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
-                                   A project designed to create a safe, seamless, and reassuring experience for both parents and child directors. 
-                                   It features a clean, user-friendly interface where parents can 
-                                   easily explore services, enroll their children, and stay connected in real time. 
-                                   With a focus on simplicity and trust, the app uses soft visuals, 
-                                   intuitive navigation, and mobile-friendly design to make managing childcare feel effortless and transparent. 
+                                    A modern childcare web app built with React, Vite, and TypeScript, featuring a clean and intuitive sidebar navigation for seamless access to key sections. 
+                                    Designed with simplicity and ease-of-use in mind, the interface offers a responsive layout that adapts smoothly across all devices. 
+                                    Subtle animations and transitions enhance the user experience, making interactions feel fluid and engaging without being distracting. 
+                                    Overall, the app delivers a fast, organized, and user-friendly experience for both parents and admins.
                                 </p>
                                 <div className="mt-5">
-                                    <a href="https://imneil04.github.io/reactproj1/" target="_blank" rel="noopener noreferrer" 
+                                    <a href="https://imneil04.github.io/reactproj5/" target="_blank" rel="noopener noreferrer" 
                                         className="
                                         px-4 py-3 
                                         bg-black 
                                         text-white rounded-lg hover:bg-emerald-700 transition-all">
                                     View Project
-                                    </a>
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                        As CI/CD updates are ongoing.
+                                    </p>
                                 </div>
                             </motion.div>
-                            
+
                             {/**PROJ 2 */}
                             <motion.div whileHover={{ scale: 1.03 }}
-                            className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
                                 <h3 className="text-xl font-semibold mb-2">Café bookish website app</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                     A website app that offers a clean and inviting digital experience that reflects the atmosphere 
@@ -167,7 +174,7 @@ export default function Resume() {
                             
                             {/**PROJ 3 */}
                             <motion.div whileHover={{ scale: 1.03 }}
-                            className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
                                 <h3 className="text-xl font-semibold mb-2">Portfolio website app</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                     A modern single-page app that is designed to showcase Mark's work, skills, and experience in a simple and engaging way. 
@@ -195,7 +202,7 @@ export default function Resume() {
 
                             {/**PROJ 4 */}
                             <motion.div whileHover={{ scale: 1.03 }}
-                            className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
                                 <h3 className="text-xl font-semibold mb-2">Childcare website app (React + Vite)</h3>
                                 <p className="text-gray-400 text-justify leading-relaxed mb-4">
                                     A modern childcare web app built with React, Vite, and Bootstrap delivers a fast, clean, and highly responsive experience for both parents and administrators. 
@@ -218,6 +225,28 @@ export default function Resume() {
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
                                         As CI/CD updates are ongoing.
                                     </p>
+                                </div>
+                            </motion.div>
+
+                            {/**PROJ 1 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Childcare website app (React)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                   A project designed to create a safe, seamless, and reassuring experience for both parents and child directors. 
+                                   It features a clean, user-friendly interface where parents can 
+                                   easily explore services, enroll their children, and stay connected in real time. 
+                                   With a focus on simplicity and trust, the app uses soft visuals, 
+                                   intuitive navigation, and mobile-friendly design to make managing childcare feel effortless and transparent. 
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://imneil04.github.io/reactproj1/" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                    </a>
                                 </div>
                             </motion.div>
                         </div>
