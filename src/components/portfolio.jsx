@@ -46,7 +46,7 @@ export default function Resume() {
 
                     {/**ABOUT */}
                     <section id="about" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-6">About Me</h2>
+                        <h2 className="text-2xl font-semibold mb-6">About Me <i className="fa-solid fa-circle-info"></i></h2>
                         <p className="text-gray-400 text-center leading-relaxed">
                             A dedicated full-stack software developer with 4+ years of progressive coding experience seeking to contribute to your company’s success through my expertise in web programming, system design, database programming, and UI/UX design. 
                             A reliable team player with strong problem-solving skills, hands-on coding experience, and excellent communication abilities.
@@ -55,29 +55,48 @@ export default function Resume() {
 
                     {/**TECH STACK */}
                     <section className="mx-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-6">Tech Stack Highlights</h2>
+                        <h2 className="text-2xl font-semibold mb-6">Tech Stack Highlights <i className="fa-solid fa-star"></i></h2>
                         
-                        <div className ="grid md:grid-cols-3 gap-6">
+                        <div className ="grid md:grid-cols-3 gap-4">
 
                             {/**FRONT-END */}
                             <div className="bg-gray-900 p-6 rounded-2xl mx-auto border border-gray-800">
-                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full bg-gray-700 shadow-md">
-                                    <i className="fa-solid fa-code"></i>
+                                <div className="flex justify-center items-center mx-auto 
+                                w-12 h-12 
+                                rounded-full 
+                                bg-gray-700 shadow-md shadow-cyan-400">
+                                    <i className="fa-solid fa-display"></i>
                                 </div>
-                                <h3 className="text-lg font-semibold mb-4 text-blue-400">Front-end</h3>
-                                <div className="flex flex-wrap gap-2 cursor-pointer">
-                                    {["HTML","CSS","Javascript","Express.js",
-                                    "React",
-                                    "Tailwind",
+                                <h3 className="text-lg font-semibold mb-4 text-cyan-400">Front-end</h3>
+                                <div className="grid grid-cols-4 md:grid-cols-6 gap-2 cursor-pointer">
+                                    {["HTML5","CSS3","Javascript",
+                                    "Typescript",
+                                    "Tailwind CSS",
                                     "Bootstrap"].map((tech) => (
-                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-blue-500 transition">{tech}</span>
+                                        <span key={tech} className="px-1 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
                                     ))}
                                 </div>
                             </div>
 
+                            {/**Frameworks & Architecture */}
+                            <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <div className="flex justify-center items-center mx-auto w-12 h-12 
+                                rounded-full bg-gray-700 shadow-md shadow-cyan-400">
+                                    <i className="fa-solid fa-cube"></i>
+                                </div>
+                                <h3 className="text-lg font-semibold mb-4 text-amber-500">Frameworks & Architecture</h3>
+                                <div className="flex flex-wrap gap-2 cursor-pointer">
+                                    {["React","Next.js","MVC Architecture","ASP.NET MVC"].map((tech) => (
+                                        <span key={tech} className="px-2 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+
+
                              {/**BACK-END */}
                             <div className="bg-gray-900 p-6 rounded-2xl mx-auto border border-gray-800">
-                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full bg-gray-700 shadow-md">
+                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full 
+                                bg-gray-700 shadow-md shadow-cyan-400">
                                     <i className="fa-solid fa-gears"></i>
                                 </div>
                                 <h3 className="text-lg font-semibold mb-4 text-green-400">Back-end</h3>
@@ -87,33 +106,66 @@ export default function Resume() {
                                     "Java",
                                     "ASP.NET",
                                     ".NET Core",
-                                    "Java Servlet Pages","Apache","MVC","Azure (Formerly TFS)",
-                                    "Firebase"].map((tech) => (
-                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-blue-500 transition">{tech}</span>
+                                    "JSP","Apache","Firebase","Supabase",
+                                    "Firestore"].map((tech) => (
+                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
                                     ))}
                                 </div>
                             </div>
 
                             {/**DBMS */}
                             <div className="bg-gray-900 p-6 rounded-2xl mx-auto border border-gray-800">
-                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full bg-gray-700 shadow-md">
+                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full 
+                                bg-gray-700 shadow-md shadow-cyan-400">
+                                    <i className="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <h3 className="text-lg font-semibold mb-4 text-red-300">Databases</h3>
+                                <div className="grid grid-cols-4 md:grid-cols-6 gap-2 cursor-pointer">
+                                    {["SQL",
+                                    "MySQL","NoSQL","PostgreSQL","Oracle"
+                                    ].map((tech) => (
+                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/**Development Tools & Platforms */}
+                            <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full 
+                                bg-gray-700 shadow-md shadow-cyan-400">
                                     <i className="fa-solid fa-code-fork"></i>
                                 </div>
-                                <h3 className="text-lg font-semibold mb-4 text-purple-400">DBMS, Version Control, Interface Design, and IDE</h3>
+                                <h3 className="text-lg font-semibold mb-4 text-blue-400">Development Tools & Platforms</h3>
                                 <div className="flex flex-wrap gap-2 cursor-pointer">
-                                    {["SQL",
-                                    "MySQL","Oracle","Git","Github","Figma","Canva","Visual Studio Code","Visual Studio IDE","Eclipse","Webstorm"
-                                    ].map((tech) => (
-                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-blue-500 transition">{tech}</span>
+                                    {["Github","Git", "Vite", "Turbopack", "Webpack", "Visual Studio IDE", "Visual Studio Code",
+                                    "Eclipse IDE",
+                                    "Figma",
+                                    "Powershell", "ChatGPT (AI Tool)", "TFS / Azure DevOps"].map((tech) => (
+                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/**API Dev */}
+                            <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <div className="flex justify-center items-center mx-auto w-12 h-12 rounded-full 
+                                bg-gray-700 shadow-md shadow-cyan-400">
+                                    <i className="fa-solid fa-code"></i>
+                                </div>
+                                <h3 className="text-lg font-semibold mb-4 text-gray-300">API Development</h3>
+                                <div className="flex flex-wrap gap-2 cursor-pointer">
+                                    {["REST API","Web API", "JSON/XML", "Web Services", "CRUD Operations" ].map((tech) => (
+                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
                                     ))}
                                 </div>
                             </div>
                         </div>
+                        
                     </section>
 
                     {/**PROJECTS */}
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-10">Projects</h2>
+                        <h2 className="text-2xl font-semibold mb-10">Projects <i className="fa-solid fa-list-check"></i></h2>
                         <div className="grid md:grid-cols-2 gap-6">
 
                             {/**PROJ 5 */}
@@ -254,7 +306,7 @@ export default function Resume() {
 
                     {/**EXPERIENCE */}
                     <section id="experience" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-6">Experience</h2>
+                        <h2 className="text-2xl font-semibold mb-6">Experience <i className="fa-solid fa-industry"></i></h2>
                        
                         <div className="space-y-8">
                              {/**EXP 1 */}
@@ -335,7 +387,7 @@ export default function Resume() {
 
                     {/**EDUCATION */}
                     <section id="education" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-6">Education</h2>
+                        <h2 className="text-2xl font-semibold mb-6">Education <i className="fa-solid fa-graduation-cap"></i></h2>
 
                         <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
                             <div className="flex flex-col justify-center items-center mb-4">
@@ -356,7 +408,7 @@ export default function Resume() {
 
                     {/**CERTS */}
                     <section id="certificates" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-6">Certifications</h2>
+                        <h2 className="text-2xl font-semibold mb-6">Certifications <i className="fa-solid fa-pen-to-square"></i></h2>
 
                         <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
                             <div className="flex flex-col justify-center items-center mb-4">
@@ -379,7 +431,7 @@ export default function Resume() {
                     <section id="contact" className="max-w-5xl mx-auto px-6 py-16 text-center">
                         <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
 
-                            <h2 className="text-2xl font-semibold mb-6">Contact</h2>
+                            <h2 className="text-2xl font-semibold mb-6">Contact <i className="fa-solid fa-mobile-screen-button"></i></h2>
 
                             <p className="text-gray-400 mb-4">
                                 Feel free to reach out for opportunities or collaborations.
