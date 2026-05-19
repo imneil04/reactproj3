@@ -120,11 +120,11 @@ export default function Resume() {
                                     <i className="fa-solid fa-laptop-code"></i>
                                 </div>
                                 <h3 className="text-lg font-semibold mb-4 text-red-300">Databases</h3>
-                                <div className="grid grid-cols-4 md:grid-cols-6 gap-2 cursor-pointer">
+                                <div className="grid grid-cols-3 md:grid-cols-6 gap-2 cursor-pointer">
                                     {["SQL",
                                     "MySQL","NoSQL","PostgreSQL","Oracle"
                                     ].map((tech) => (
-                                        <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
+                                        <span key={tech} className="px-2 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
                                     ))}
                                 </div>
                             </div>
@@ -165,8 +165,35 @@ export default function Resume() {
 
                     {/**PROJECTS */}
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
-                        <h2 className="text-2xl font-semibold mb-10">Projects <i className="fa-solid fa-list-check"></i></h2>
+                        <h2 className="text-2xl font-semibold mb-10">Passion Projects <i className="fa-solid fa-list-check"></i></h2>
                         <div className="grid md:grid-cols-2 gap-6">
+
+                            {/**PROJ 6 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Childcare website app (Next.js)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                    Built a scalable full-stack childcare management web application using Next.js and Supabase,
+                                    designed to streamline daycare operations such as child attendance tracking, appointment scheduling, and messaging. The project focuses on responsive UI/UX, reusable component architecture, API integration, 
+                                    and database-driven functionality while emphasizing scalability, maintainability, and long-term growth to support future feature expansion.
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://project-nn7sb.vercel.app/" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                        As CI/CD updates are ongoing.
+                                    </p>
+                                </div>
+                            </motion.div>
 
                             {/**PROJ 5 */}
                             <motion.div whileHover={{ scale: 1.03 }}
