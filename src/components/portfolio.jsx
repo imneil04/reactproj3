@@ -141,7 +141,7 @@ export default function Resume() {
                                     {["Github","Git", "Vite", "Vercel", "Turbopack", "Webpack", "Visual Studio IDE", "Visual Studio Code",
                                     "Eclipse IDE",
                                     "Figma",
-                                    "Powershell", "ChatGPT (AI Tool)", "TFS / Azure DevOps"].map((tech) => (
+                                    "Powershell", "ChatGPT / Codex", "TFS / Azure DevOps"].map((tech) => (
                                         <span key={tech} className="px-3 py-1 bg-gray-800 rounded-full text-sm hover:bg-cyan-600 transition">{tech}</span>
                                     ))}
                                 </div>
