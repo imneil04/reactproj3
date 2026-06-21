@@ -103,6 +103,7 @@ export default function Resume() {
                                 <div className="flex flex-wrap gap-2 cursor-pointer">
                                     {["Node.js",
                                     "C#",
+                                    "Python",
                                     "Java",
                                     "ASP.NET",
                                     ".NET Core",
