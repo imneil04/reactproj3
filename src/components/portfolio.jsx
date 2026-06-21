@@ -138,7 +138,7 @@ export default function Resume() {
                                 </div>
                                 <h3 className="text-lg font-semibold mb-4 text-blue-400">Development Tools & Platforms</h3>
                                 <div className="flex flex-wrap gap-2 cursor-pointer">
-                                    {["Github","Git", "Vite", "Turbopack", "Webpack", "Visual Studio IDE", "Visual Studio Code",
+                                    {["Github","Git", "Vite", "Vercel", "Turbopack", "Webpack", "Visual Studio IDE", "Visual Studio Code",
                                     "Eclipse IDE",
                                     "Figma",
                                     "Powershell", "ChatGPT (AI Tool)", "TFS / Azure DevOps"].map((tech) => (
