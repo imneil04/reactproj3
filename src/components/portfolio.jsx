@@ -168,6 +168,32 @@ export default function Resume() {
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
                         <h2 className="text-2xl font-semibold mb-10">Passion Projects <i className="fa-solid fa-list-check"></i></h2>
                         <div className="grid md:grid-cols-2 gap-6">
+                            
+                            {/**PROJ 7 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Expense Tracker website app (Python+Flask)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                    Developed an Expense Tracker web application using Python, Flask, and Tailwind CSS as a hands-on step in learning a new technology stack. 
+                                    The application features an intuitive, easy-to-use interface that allows users to enter, calculate, and manage expense data.
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://project-3t7sv.vercel.app/" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                        As CI/CD updates are ongoing.
+                                    </p>
+                                </div>
+                            </motion.div>
 
                             {/**PROJ 6 */}
                             <motion.div whileHover={{ scale: 1.03 }}
