@@ -168,6 +168,31 @@ export default function Resume() {
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
                         <h2 className="text-2xl font-semibold mb-10">Passion Projects <i className="fa-solid fa-list-check"></i></h2>
                         <div className="grid md:grid-cols-2 gap-6">
+
+                            {/**PROJ 8 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Inventory Management System (Next.js)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                    Developed a scalable inventory management web application using Next.js, Tailwind CSS, and Supabase, with a strong focus on security, user authentication, and a modern, intuitive user experience. 
+                                    Designed the application with maintainability and future scalability in mind, enabling it to support new features over time.
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://reactproj7.vercel.app/login" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                    </p>
+                                </div>
+                            </motion.div>
                             
                             {/**PROJ 7 */}
                             <motion.div whileHover={{ scale: 1.03 }}
@@ -190,7 +215,6 @@ export default function Resume() {
                                      <p className="text-gray-300 text-sm mt-7 p-2">
                                         <span className="text-cyan-500
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                        As CI/CD updates are ongoing.
                                     </p>
                                 </div>
                             </motion.div>
@@ -217,7 +241,6 @@ export default function Resume() {
                                      <p className="text-gray-300 text-sm mt-7 p-2">
                                         <span className="text-cyan-500
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                        As CI/CD updates are ongoing.
                                     </p>
                                 </div>
                             </motion.div>
@@ -245,7 +268,6 @@ export default function Resume() {
                                      <p className="text-gray-300 text-sm mt-7 p-2">
                                         <span className="text-cyan-500
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                        As CI/CD updates are ongoing.
                                     </p>
                                 </div>
                             </motion.div>
@@ -273,8 +295,7 @@ export default function Resume() {
                                 <div className="rounded-full bg-gray-600">
                                     <p className="text-gray-300 text-sm mt-7 p-2">
                                     <span className="text-cyan-500
-                                        font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                    As CI/CD updates are ongoing.</p>
+                                        font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.</p>
                                 </div>
                             </motion.div>
                             
@@ -301,7 +322,6 @@ export default function Resume() {
                                      <p className="text-gray-300 text-sm mt-7 p-2">
                                         <span className="text-cyan-500
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                        As CI/CD updates are ongoing.
                                     </p>
                                 </div>
                             </motion.div>
@@ -329,7 +349,6 @@ export default function Resume() {
                                      <p className="text-gray-300 text-sm mt-7 p-2">
                                         <span className="text-cyan-500
                                          font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
-                                        As CI/CD updates are ongoing.
                                     </p>
                                 </div>
                             </motion.div>
