@@ -48,7 +48,7 @@ export default function Resume() {
                     <section id="about" className="max-w-5xl mx-auto px-6 py-16">
                         <h2 className="text-2xl font-semibold mb-6">About Me <i className="fa-solid fa-circle-info"></i></h2>
                         <p className="text-gray-400 text-center leading-relaxed">
-                            A dedicated full-stack software developer with 4+ years of progressive coding experience seeking to contribute to your company’s success through my expertise in web programming, system design, database programming, and UI/UX design. 
+                            A dedicated and motivated full-stack software developer with 4+ years of progressive coding experience seeking to contribute to your company’s success through my expertise in web programming, system design, database programming, and UI/UX design. 
                             A reliable team player with strong problem-solving skills, hands-on coding experience, and excellent communication abilities.
                         </p>
                     </section>
@@ -168,6 +168,32 @@ export default function Resume() {
                     <section id="projects" className="max-w-5xl mx-auto px-6 py-16">
                         <h2 className="text-2xl font-semibold mb-10">Passion Projects <i className="fa-solid fa-list-check"></i></h2>
                         <div className="grid md:grid-cols-2 gap-6">
+
+                            {/**PROJ 9 */}
+                            <motion.div whileHover={{ scale: 1.03 }}
+                                        className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                                <h3 className="text-xl font-semibold mb-2">Travel Planner website app (Next.js)</h3>
+                                <p className="text-gray-400 text-justify leading-relaxed mb-4">
+                                    A modern full-stack travel planning platform built with React, Next.js, Tailwind CSS, and Supabase. It helps users discover destinations, and manage their trips in one place.
+                                    Next.js provides fast, SEO-friendly rendering and a clean routing structure, while Tailwind CSS keeps the interface responsive and 
+                                    consistent across devices. Supabase handles authentication, the PostgreSQL database, and secure data access.
+                                </p>
+                                <div className="mt-5">
+                                    <a href="https://reactproj8.vercel.app/" target="_blank" rel="noopener noreferrer" 
+                                        className="
+                                        px-4 py-3 
+                                        bg-black 
+                                        text-white rounded-lg hover:bg-emerald-700 transition-all">
+                                    View Project
+                                </a>
+                                </div>
+                                <div className="rounded-full bg-gray-600">
+                                     <p className="text-gray-300 text-sm mt-7 p-2">
+                                        <span className="text-cyan-500
+                                         font-semibold">Please note</span>: refresh website page after clicking button for better viewing experience.
+                                    </p>
+                                </div>
+                            </motion.div>
 
                             {/**PROJ 8 */}
                             <motion.div whileHover={{ scale: 1.03 }}
